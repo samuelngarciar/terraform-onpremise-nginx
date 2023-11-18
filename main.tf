@@ -1,5 +1,5 @@
 provider "kubernetes" {
-  config_path = "/config"
+  config_path = "/etc/rancher/k3s/k3s.yaml"
 }
 
 resource "kubernetes_deployment" "nginx" {
